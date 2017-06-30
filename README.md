@@ -6,6 +6,33 @@ the generation of the name of the test cases in the JUnit XML Report is wrong.
 
     testOptions in Test ++= Seq(Tests.Argument(TestFrameworks.Specs2, "exclude", "io"))
 
+## Specs2 Test
+
+    "This should not be the prefix" >> {
+      "of all test case names in the JUnit XML" in {
+        ok
+      }
+    }
+
+    "This is a test group" >>  {
+    
+      "with section 1, which" should {
+        "execute test 1A" in {
+          ok
+        }
+        
+        "execute test 1B" in {
+          ok
+        }
+      }
+        
+      "with section 2, which" should {
+        "execute test 2A" in {
+          ok
+        }
+      }
+    
+    }
 
 ## Expected XML in `target/test-reports` without the option
 
