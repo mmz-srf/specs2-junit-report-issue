@@ -34,7 +34,7 @@ the generation of the name of the test cases in the JUnit XML Report is wrong.
     
     }
 
-## Expected XML in `target/test-reports` without the option
+## XML in `target/test-reports` without the option
 
     ...
     <testcase name="This is a test group::with section 2, which should::execute test 2A" classname="MultipleShouldBlockTest" time="0.223">
@@ -47,7 +47,7 @@ the generation of the name of the test cases in the JUnit XML Report is wrong.
     </testcase>
     ...
     
-## Actual XML in `target/test-reports` with the option
+## XML in `target/test-reports` with the option
 
     ...
     <testcase name="This should not be the prefix::This is a test group::with section 1, which should::execute test 1A" classname="MultipleShouldBlockTest" time="0.115">        
