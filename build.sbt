@@ -8,7 +8,7 @@ scalaVersion := "2.12.1"
 testOptions in ThisBuild ++= Seq(Tests.Argument("junitxml"), Tests.Argument("console"))
 
 //This option destroys the test case names in the xml report
-testOptions in Test ++= Seq(Tests.Argument(TestFrameworks.Specs2, "exclude", "io"))
+//testOptions in Test ++= Seq(Tests.Argument(TestFrameworks.Specs2, "exclude", "io"))
 
 val specs2Version = "3.9.1"
 
