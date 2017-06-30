@@ -7,7 +7,7 @@ the generation of the name of the test cases in the JUnit XML Report is wrong.
     testOptions in Test ++= Seq(Tests.Argument(TestFrameworks.Specs2, "exclude", "io"))
 
 
-## XML in `target/test-reports` without the option
+## Expected XML in `target/test-reports` without the option
 
     ...
     <testcase name="This is a test group::with section 2, which should::execute test 2A" classname="MultipleShouldBlockTest" time="0.223">
