@@ -1,6 +1,6 @@
 # Specs2 JUnit XML Report Issue Demo
 
-When adding the Tests.Argument `exclude to the testOptions,
+When adding the Tests.Argument `exclude` to the testOptions,
 the generation of the name of the test cases in the JUnit XML Report is wrong.
 
 
